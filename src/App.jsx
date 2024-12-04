@@ -80,6 +80,10 @@ function App() {
         />
         <Route path="/leaderboard" element={<Leaderboard />} />
       </Routes>
+
+      <p className="text-sm md:text-base text-gray-500 text-center">
+        Made with Not Realness and proudly <a href="https://github.com/sahil-lalani/not-real-index" target="_blank" className="hover:underline">open-source</a>
+      </p>
     </div>
   );
 }
